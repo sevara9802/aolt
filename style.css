@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+header {
+  background-image: url(./img/wallpaperflare\ 1.svg);
+
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  background-color: black;
+  height: 770px;
+}
+.logo-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 619px;
+}
+.logo-box-img {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 215px;
+  height: 54px;
+  padding-top: 46px;
+}
+.menu > li > a {
+  text-decoration: none;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  padding-top: 62px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.left-box-1 {
+  color: #fff;
+  font-family: Bebas Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 330px;
+  margin-right: 50px;
+ 
+
+}
+.left-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px; 
+  padding-top: 264px;
+}
+.left-box-icons {
+    list-style: none;
+}
+.left-box-icons > li > a > i {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+  list-style: none;
+}
+.footer-box{
+    display: flex;
+     align-items: center; 
+ justify-content: center; 
+    
+    background-color: #2C2B2B;
+      padding: 20px 22px 20px 34px; 
+     margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 145px;
+    
+    
+}
+.footer-box-1>p{
+    color: #FFD600;
+font-family: Barlow;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.footer-box-1>h4{
+    color: #FFF;
+font-family: Barlow;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.footer-box-2{
+    color: #000;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+background-color: #FFD600;
+padding: 18px 23px;
+margin-left: 350px;
+}
+.box-1>img{
+    
+   margin-left: 1048px;
+ margin-bottom: -160px;
+ 
+ 
+}
